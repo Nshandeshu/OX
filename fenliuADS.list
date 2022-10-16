@@ -6,6 +6,10 @@ host-keyword, toutiao.com, reject
 # > 虎牙
 # host-keyword, msstatic.com, reject
 host-keyword, business.msstatic.com, reject
+host-keyword, anchorpost.msstatic.com, reject
+host-keyword, live-cover.msstatic.com, reject
+host-keyword, livewebbs2.msstatic.com, reject
+
 
 # > 美团
 HOST, flowplus.meituan.net, reject
