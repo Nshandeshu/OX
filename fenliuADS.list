@@ -4,7 +4,8 @@ host-keyword, p6-be-pack-sign.pglstatp-toutiao.com, reject
 host-keyword, toutiao.com, reject
 
 # > 虎牙
-host-keyword, msstatic.com, reject
+# host-keyword, msstatic.com, reject
+host-keyword, business.msstatic.com, reject
 
 # > 美团
 HOST, flowplus.meituan.net, reject
