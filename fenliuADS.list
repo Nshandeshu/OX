@@ -1,6 +1,7 @@
 
 # > 酷安
-# > host-keyword, p6-be-pack-sign.pglstatp-toutiao.com, reject
+host-keyword, p6-be-pack-sign.pglstatp-toutiao.com, reject
+host-keyword, toutiao.com, reject
 
 # > 美团
 HOST, flowplus.meituan.net, reject
