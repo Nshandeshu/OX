@@ -10,8 +10,6 @@
 
 # 全分组
 # 去广告插件, VIP脚本, 签到, cookie,
-# 云音乐解锁规则, 节点远程订阅, 默认直连, 可在策略组手动开启。
-# 请使用 Safari 浏览器访问 https://cdn.jsdelivr.net/gh/nondanee/UnblockNeteaseMusic@master/ca.crt 。首先下载证书, 进入「设置」>「通用」>「描述文件」, 安装「UnblockNeteaseMusic Root CA」, 并在「设置」>「通用」>「关于本机」>「证书信任设置」开启对「UnblockNeteaseMusic Root CA」的信任。
 
 [General]
 # IPv6 支持
@@ -68,8 +66,7 @@ dl.l.google.com = server:119.29.29.29
 [Proxy]
 
 [Remote Proxy]
-机场订阅 = 填入链接
-网易解锁 = https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Loon.list,parser-enable = true,udp=false,fast-open=false,vmess-aead=true
+机场订阅 = 填入url
 
 [Proxy Group]
 FINAL = select,DIRECT,节点选择,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
@@ -77,7 +74,6 @@ FINAL = select,DIRECT,节点选择,img-url = https://raw.githubusercontent.com/K
 
 苹果服务 = select,DIRECT,节点选择,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
 
-网易音乐 = select,DIRECT,解锁节点,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music.png
 
 油管视频 = select,节点选择,香港节点,狮城节点,韩国节点,美国节点,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 
@@ -93,8 +89,6 @@ FINAL = select,DIRECT,节点选择,img-url = https://raw.githubusercontent.com/K
 
 美国节点 = select,美国,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
 
-解锁节点 = select,网易解锁,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music_Unlock.png
-
 [Remote Filter]
 香港 = NameRegex, FilterKey = "(?i)(港|HK|Hong)"
 台湾 = NameRegex, FilterKey = "(?i)(台|TW|Tai)"
@@ -102,7 +96,6 @@ FINAL = select,DIRECT,节点选择,img-url = https://raw.githubusercontent.com/K
 韩国 = NameRegex, FilterKey = "(?i)(KR|Korea|KOR|首尔|韩|韓)"
 美国 = NameRegex, FilterKey = "(?i)(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"
 新加坡 = NameRegex, FilterKey = "(?i)(新加|坡|狮城|SG|Singapore)"
-网易解锁 = NameRegex, FilterKey = "(?i)(unblock|music|Music|云音乐|🎧)"
 
 [Remote Rule]
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list, policy=REJECT, tag=去广告,enabled=true
@@ -110,8 +103,6 @@ https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Gua
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TestFlight/TestFlight.list, policy=节点选择, tag=TestFlight, enabled=true
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple.list, policy=苹果服务, tag=苹果服务, enabled=true
-
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NetEaseMusic/NetEaseMusic.list, policy=网易音乐, tag=网易音乐, enabled=true
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTube/YouTube.list, policy=油管视频, tag=油管视频, enabled=true
 
