@@ -68,8 +68,8 @@ dl.l.google.com = server:119.29.29.29
 [Proxy]
 
 [Remote Proxy]
-机场订阅 = https://suo.yt/W7BkpTS
-网易解锁 = https://git.io/JfNq3, parser-enable = true
+机场订阅 = 填入链接
+网易解锁 = https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/QuantumultX.snippet, parser-enable = true
 
 [Proxy Group]
 FINAL = select,DIRECT,节点选择,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
