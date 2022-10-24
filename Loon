@@ -70,10 +70,10 @@ dl.l.google.com = server:119.29.29.29
 
 [Proxy Group]
 FINAL = select,DIRECT,节点选择,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
+
 节点选择 = select,香港节点,新加节点,美国节点,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
 
 苹果服务 = select,DIRECT,节点选择,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
-
 
 油管视频 = select,节点选择,香港节点,狮城节点,韩国节点,美国节点,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 
@@ -100,17 +100,17 @@ FINAL = select,DIRECT,节点选择,img-url = https://raw.githubusercontent.com/K
 [Remote Rule]
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list, policy=REJECT, tag=去广告,enabled=true
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TestFlight/TestFlight.list, policy=节点选择, tag=TestFlight, enabled=true
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TestFlight/TestFlight.list, policy=节点选择, tag=TestFlight, enabled=true
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple.list, policy=苹果服务, tag=苹果服务, enabled=true
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTube/YouTube.list, policy=油管视频, tag=油管视频, enabled=true
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Proxy/Proxy.list, policy=节点选择, tag=全球规则, enabled=true
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Proxy/Proxy.list, policy=节点选择, tag=全球规则, enabled=true
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Proxy/Proxy_Domain.list, policy=节点选择, tag=全球规则,enabled=true
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Proxy/Proxy_Domain.list, policy=节点选择, tag=全球规则,enabled=true
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China.list, policy=DIRECT, tag=全球直连, enabled=true
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China.list, policy=DIRECT, tag=全球直连, enabled=true
 
 [Rule]
 GEOIP,CN,DIRECT
@@ -125,20 +125,20 @@ FINAL,FINAL
 enable = false
 
 [Remote Script]
-https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Fake_Vip.conf, tag=Fake-VIP, enabled=true
-https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Cookie.conf, tag=Cookie.获取完一定要关闭, enabled=false
-https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Task.conf, tag=Task, enabled=false
-https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Script.conf, tag=Script, enabled=false
-https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/JD.conf, tag=JD, enabled=false
+# https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Fake_Vip.conf, tag=Fake-VIP, enabled=true
+# https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Cookie.conf, tag=Cookie.获取完一定要关闭, enabled=false
+# https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Task.conf, tag=Task, enabled=false
+# https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Script.conf, tag=Script, enabled=false
+# https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/JD.conf, tag=JD, enabled=false
 
 [Plugin]
 
 https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/MediaCheck.plugin, tag=Node Detection Tool, enabled=true
-https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Unlock/TikTokJP.plugin, proxy=日本节点, tag=Tiktok, enabled=true
+# 去广告
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Loon/Advertising/Advertising.plugin, tag=Advertising, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Loon/Redirect/Redirect.plugin, tag=General, enabled=true
-https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/TF-Download.plugin, tag=TF-Download, enabled=true
-https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.plugin, enabled=true
+# https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/TF-Download.plugin, tag=TF-Download, enabled=true
+# https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.plugin, enabled=true
 https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Loon.plugin, tag=订阅解析器, enabled=false
 
 [MITM]
