@@ -83,6 +83,8 @@ FINAL = select,DIRECT,节点选择,img-url = https://raw.githubusercontent.com/K
 
 香港节点 = select,香港,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
 
+新加节点 = select,新加坡,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+
 台湾节点 = select,台湾,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
 
 韩国节点 = select,韩国,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
