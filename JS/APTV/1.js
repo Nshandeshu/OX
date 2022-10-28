@@ -7,13 +7,13 @@
 
 *******************************
 
-[rewrite_local]
+# [rewrite_local]
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Nshandeshu/OX/main/JS/APTV/1.js
+# ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Nshandeshu/OX/main/JS/APTV/1.js
 
-[mitm] 
+# [mitm] 
 
-hostname = buy.itunes.apple.com
+# hostname = buy.itunes.apple.com
 
 *******************************/
 
