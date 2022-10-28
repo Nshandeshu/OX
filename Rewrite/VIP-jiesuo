@@ -1,4 +1,4 @@
-hostname = biz.caiyunapp.com, spclient.wg.spotify.com rich.kuwo.cn, *.kwcdn.kuwo.cn, mobilead.kuwo.cn musicpay.kuwo.cn, vip1.kuwo.cn, audiobookpay.kuwo.cn, tingshu.kuwo.cn ,omp-audiobookpay.lrts.me,mb3admin.com,api-sub.meitu.com
+hostname = biz.caiyunapp.com, spclient.wg.spotify.com rich.kuwo.cn, *.kwcdn.kuwo.cn, mobilead.kuwo.cn musicpay.kuwo.cn, vip1.kuwo.cn, audiobookpay.kuwo.cn, tingshu.kuwo.cn ,omp-audiobookpay.lrts.me,mb3admin.com,api-sub.meitu.com,commerce-api.faceu.mobi
 
 彩云天气 解锁SVIP ✅
 下载地址：http://mtw.so/6jpmu5
@@ -6,6 +6,7 @@ hostname = biz.caiyunapp.com, spclient.wg.spotify.com rich.kuwo.cn, *.kwcdn.kuwo
 ****************************************/
 https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body  https://raw.githubusercontent.com/Nshandeshu/OX/main/JS/caiyun.js
 
+/******************************
 酷我音乐系列 ✅
 下载地址：http://mtw.so/5tlGDo
 #hostname= spclient.wg.spotify.com rich.kuwo.cn, *.kwcdn.kuwo.cn, mobilead.kuwo.cn musicpay.kuwo.cn, vip1.kuwo.cn, audiobookpay.kuwo.cn, tingshu.kuwo.cn ,omp-audiobookpay.lrts.me
@@ -25,17 +26,29 @@ https?:\/\/omp-audiobookpay\.lrts\.me\/a\.p\?op=get_advertright url reject-dict
 # 酷我音乐_添加已购音乐
 ^https?:\/\/.*\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=2
 
+/******************************
 Emby 解锁播放权限 ✅
 下载地址：http://mtw.so/5tw5vk
 #hostname= mb3admin.com
-****************************************/
+
 ^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/Nshandeshu/OX/main/JS/Emby.js
 
+/******************************
 Wink-像修图一样修视频 解锁Vip ✅
 下载地址：http://mtw.so/64mWq1
 #hostname= api-sub.meitu.com
-****************************************/
 ^https:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group url script-response-body https://raw.githubusercontent.com/Nshandeshu/OX/main/JS/Wink.js
+
+/******************************
+脚本功能：轻颜相机+解锁VIP
+下载地址：https://is.gd/eFIVFk
+特别说明：⛔️支持4.3.4以下所有版本！
+软件版本：v4.3.1
+*******************************
+[rewrite_local]
+^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info? url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/qyxj.js
+# [mitm] 
+# hostname = commerce-api.faceu.mobi
 
 
 
