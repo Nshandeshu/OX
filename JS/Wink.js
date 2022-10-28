@@ -9,7 +9,7 @@
 
 [rewrite_local]
 
-^https:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Wink.js
+^https:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group url script-response-body https://raw.githubusercontent.com/Nshandeshu/OX/main/JS/Wink.js
 
 [mitm] 
 
