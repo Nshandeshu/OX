@@ -1,4 +1,4 @@
-# 墨鱼
+# 墨鱼 https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Server/Netease.list
 http=os.tencentcdn.net:25000, over-tls=false, fast-open=false, udp-relay=false, server_check_url=http://interface3.music.163.com, tag=🐟网易云解锁1
 http=pc.tencentcdn.net:35000, over-tls=false, fast-open=false, udp-relay=false, server_check_url=http://interface3.music.163.com, tag=🐟网易云解锁2
 http=155.248.169.205:70, over-tls=false, fast-open=false, udp-relay=false, server_check_url=http://interface3.music.163.com, tag=🐟网易云解锁3
