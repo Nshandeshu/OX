@@ -6,15 +6,15 @@
 更新时间：2022-10-25
 *******************************
 
-[rewrite_local]
+# [rewrite_local]
 
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/Nshandeshu/OX/main/JS/fileball/1.js
+# ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/Nshandeshu/OX/main/JS/fileball/1.js
 
-^https:\/\/app-measurement\.com\/config\/app\/1?(.*?)*$ url reject
+# ^https:\/\/app-measurement\.com\/config\/app\/1?(.*?)*$ url reject
 
-[mitm] 
+# [mitm] 
 
-hostname = api.revenuecat.com, app-measurement.com
+# hostname = api.revenuecat.com, app-measurement.com
 
 *******************************/
 
