@@ -5,15 +5,16 @@
 软件版本：1.0.10
 更新时间：2022-10-02
 
+
 *******************************
 
-# [rewrite_local]
+[rewrite_local]
 
-# ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Nshandeshu/OX/main/JS/APTV/1.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/aptv.js
 
-# [mitm] 
+[mitm] 
 
-# hostname = buy.itunes.apple.com
+hostname = buy.itunes.apple.com
 
 *******************************/
 
