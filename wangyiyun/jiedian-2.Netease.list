@@ -1,7 +1,7 @@
 # > NeteaseMusic Unlock List
 # > All Nodes
 # > 2022.07.16
-# > https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/QuantumultX.snippet
+# > 原地址https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/QuantumultX.snippet
 # Back music.desperadoj.com DNS 101.132.192.212
 http=music.lolico.me:39000, over-tls=false, fast-open=false, udp-relay=false, server_check_url=http://interface3.music.163.com, tag=NeteaseMusic Unlock 1
 shadowsocks=101.132.192.212:30001, method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, fast-open=false, udp-relay=false, server_check_url=http://interface3.music.163.com, tag=NeteaseMusic Unlock 2
