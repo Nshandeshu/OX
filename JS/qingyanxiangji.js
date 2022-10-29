@@ -11,9 +11,9 @@
 
 ^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info? url script-response-body https://raw.githubusercontent.com/Nshandeshu/OX/main/JS/qingyanxiangji.js
 
-# [mitm] 
+[mitm] 
 
-# hostname = commerce-api.faceu.mobi
+hostname = commerce-api.faceu.mobi
 
 *******************************/
 
