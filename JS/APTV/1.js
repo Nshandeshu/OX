@@ -4,7 +4,7 @@
 下载地址：https://is.gd/inlPLD
 软件版本：1.0.10
 更新时间：2022-10-02
-
+# https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/aptv.js
 
 *******************************
 
