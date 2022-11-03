@@ -4,6 +4,7 @@
 软件功能：登录/观看/分享/投币/直播签到/银瓜子转硬币
 更新时间：2022-10-31
 原版地址：https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js
+cookie获取重写：https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Task/Remote_Cookie.conf
 使用平台：圈X, 其他平台未适配
 脚本参考：Nobyda、Wyatt1026、ABreadTree、chavyleung感谢以上人员的开源奉献
 使用方法：
