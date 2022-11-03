@@ -122,7 +122,7 @@ async function signBiliBili() {
       }else{
         console.log("- 获取视频失败，请重试或寻求帮助");
       }
-      let exec_times = 5 - (config.coins.num / 10);
+      let exec_times = 0;
       if (config.user.money < 1) {
         console.log(`#### 投币任务`);
         console.log("- 硬币不足, 投币失败");
