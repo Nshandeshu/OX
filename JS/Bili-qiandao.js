@@ -3,6 +3,7 @@
 脚本作者：MartinsKing
 软件功能：登录/观看/分享/投币/直播签到/银瓜子转硬币
 更新时间：2022-10-31
+原版地址：https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js
 使用平台：圈X, 其他平台未适配
 脚本参考：Nobyda、Wyatt1026、ABreadTree、chavyleung感谢以上人员的开源奉献
 使用方法：
@@ -121,7 +122,7 @@ async function signBiliBili() {
       }else{
         console.log("- 获取视频失败，请重试或寻求帮助");
       }
-      let exec_times = 5 - (config.coins.num / 10);
+      let exec_times = 0;
       if (config.user.money < 1) {
         console.log(`#### 投币任务`);
         console.log("- 硬币不足, 投币失败");
