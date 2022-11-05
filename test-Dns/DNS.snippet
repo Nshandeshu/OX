@@ -1,0 +1,446 @@
+#!name=🌐 DNS for Router and Companys
+#!desc=1.按企业/公司分流使用所属DNS进行解析 2.路由器地址使用系统DNS进行解析
+#!author=VirgilClyne
+#!homepage=https://github.com/VirgilClyne/GetSomeFries/wiki/🌐-DNS
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
+#原版=https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/snippet/DNS.snippet
+[dns]
+
+# Google CDN
+server = /blog.google/8.8.8.8
+server = /googletraveladservices.com/8.8.8.8
+server = /dl.google.com/8.8.8.8
+server = /dl.l.google.com/8.8.8.8
+server = /clientservices.googleapis.com/8.8.8.8
+server = /update.googleapis.com/8.8.8.8
+server = /translate.googleapis.com/8.8.8.8
+server = /fonts.googleapis.com/8.8.8.8
+server = /fonts.gstatic.com/8.8.8.8
+
+# > Router Admin Panel
+# Ubiquiti Unifi Network App
+server = /*.id.ui.direct/system
+# Ubiquiti Unifi Portal
+# server = /unifi.ui.com/system
+# Ubiquiti Unifi OS
+server = /unifi.local/system
+# Ubiquiti Unifi Controller
+# server = /network.unifi.ui.com/system
+# Ubiquiti Amplifi Router
+server = /amplifi.lan/system
+# Synology Router
+server = /router.synology.com/system
+# Razer Sila Router
+server = /sila.razer.com/system
+# Asus Router
+server = /router.asus.com/system
+# Netgear Router
+server = /routerlogin.net/system
+# Netgear Obri Router
+server = /orbilogin.com/system
+# Linksys Router
+server = /www.LinksysSmartWiFi.com/system
+server = /LinksysSmartWiFi.com/system
+server = /myrouter.local/system
+# Aurba Router
+server = /instant.arubanetworks.com/system
+server = /setmeup.arubanetworks.com/system
+# 小米 Mi WiFi Router
+server = /www.miwifi.com/system
+server = /miwifi.com/system
+# 华为 Huawei Router
+server = /mediarouter.home/system
+# TP-Link Router
+server = /tplogin.cn/system
+server = /tplinklogin.net/system
+server = /tplinkwifi.net/system
+# 水星 MERCURY Router
+server = /melogin.cn/system
+# 迅捷 FAST Router
+server = /falogin.cn/system
+# 腾达 Tenda Router
+server = /tendawifi.com/system
+# 磊科 Netcore Router
+server = /leike.cc/system
+# 中兴 ZTE Router
+server = /zte.home/system
+# 斐讯 PHICOMM Router
+server = /p.to/system
+server = /phicomm.me/system
+# 极路由 HiWiFi Router
+server = /hiwifi.com/system
+# 迅雷路由
+server = /peiluyou.com/system
+
+# > Apple
+
+# Apple.com
+# server = /*.apple.com/119.29.29.29
+# iCloud.com
+server = /*.icloud.com/119.29.29.29
+
+
+# Google sites
+# server = /*.goog/8.8.8.8
+# Google 静态资源
+server = /*.gstatic.com/8.8.8.8
+# Google Photos
+server = /*.ggpht.com/8.8.8.8
+# Google 用户上传数据
+server = /*.googleusercontent.com/8.8.8.8
+# Google APIs
+# server = /*.googleapis.com/8.8.8.8
+# Google backbone
+server = /*.1e100.net/8.8.8.8
+# Youtube sites
+server = /*.youtube/8.8.8.8
+# Youtube
+server = /*.youtube.com/8.8.8.8
+# Youtube 图片
+server = /*.ytimg.com/8.8.8.8
+# Youtube Video
+server = /*.googlevideo.com/8.8.8.8
+# Google Video Thumbnails
+server = /*.gvt?.com/8.8.8.8
+# reCaptcha
+server = /*.recaptcha.net/8.8.8.8
+# Gmail
+server = /*.gmail.com/8.8.8.8
+# Google Source
+server = /*.googlesource.com/8.8.8.8
+# Google AD Services
+server = /*.googleadservices.com/8.8.8.8
+# DoubleClick
+server = /*.doubleclick.net/8.8.8.8
+# AdSense
+server = /*.adsense.com/8.8.8.8
+# AdSense Custom Search Ads
+server = /*.adsensecustomsearchads.com/8.8.8.8
+# AdSense for mobile apps
+server = /*.adsenseformobileapps.com/8.8.8.8
+# Google shortened URLs
+server = /*.gle/8.8.8.8
+# Google URL Shortener
+server = /goo.gl/8.8.8.8
+
+# > Cloudflare
+server = /*.cloudflare.com/9.9.9.9
+# Cloudflare Stream
+server = /*.cloudflarestream.com/9.9.9.9
+# Cloudflare Client
+server = /*.cloudflareclient.com/9.9.9.9
+# Cloudflare Web Analytics
+server = /*.cloudflareinsights.com/9.9.9.9
+# Cloudflare 1.1.1.1
+server = /*.every1dns.net/9.9.9.9
+# Cloudflare SSL Certificate
+# server = /*.cloudflaressl.com/9.9.9.9
+# Cloudflare DNS
+server = /*.cloudflare-dns.com/9.9.9.9
+# CloudFlare Workers
+server = /*.workers.dev/9.9.9.9
+
+# > 阿里巴巴
+server = /*.alibaba.cn/223.5.5.5
+server = /*.alibaba.com.cn/223.5.5.5
+# Alibaba 中国
+server = /*.china.alibaba.com/223.5.5.5
+# 1688
+server = /*.1688.com/223.5.5.5
+# 淘宝
+server = /*.taobao.com/223.5.5.5
+# 淘宝 缓存
+server = /*.tbcache.com/223.5.5.5
+# 天猫
+server = /*.tmall.com/223.5.5.5
+# 阿里 CDN
+server = /*.alicdn.com/223.5.5.5
+# 阿里云盘
+server = /*.aliyundrive.com/223.5.5.5
+# 阿里云
+server = /*.aliyun.*/223.5.5.5
+# 阿里云 CDN
+server = /*.aliyuncdn.*/223.5.5.5
+# 阿里云 DDoS防护
+server = /*.aliyunddos????.com/223.5.5.5
+# 阿里云API服务
+server = /*.aliyuncs.com/223.5.5.5
+# 阿里云Web应用防火墙
+server = /*.aliyundunwaf.com/223.5.5.5
+# 云引擎应用平台
+server = /*.aliapp.com/223.5.5.5
+# 上云平台
+server = /*.aliapp.org/223.5.5.5
+# 阿里用户上传资料
+server = /*.alibabausercontent.com/223.5.5.5
+# mmstat 数据统计 广告追踪
+server = /*.mmstat.com/223.5.5.5
+# 淘宝短网址
+server = /tb.cn/223.5.5.5
+
+# > 蚂蚁集团
+server = /*.alipay.com/223.5.5.5
+server = /*.alipay.com.cn/223.5.5.5
+# 支付宝 HTTP DNS
+server = /*.alipaydns.com/223.5.5.5
+# 支付宝 商家资源
+server = /*.alipayeshop.com/223.5.5.5
+# 支付宝 Mdap
+server = /*.alipaylog.com/223.5.5.5
+# 支付宝 静态资源
+server = /*.alipayobjects.com/223.5.5.5
+# 支付宝 开放技术生态体系
+server = /*.alipay-eco.com/223.5.5.5
+
+# > 腾讯
+server = /*.tencent.com/119.29.29.29
+# 腾讯云
+server = /*.qcloud.com/119.29.29.29
+# 腾讯云CDN
+server = /*.qcloudcdn.cn/119.29.29.29
+server = /*.qcloudcdn.com/119.29.29.29
+# 腾讯云对象储存
+server = /*.qcloudcos.com/119.29.29.29
+# 腾讯云静态资源
+server = /*.qcloudimg.com/119.29.29.29
+# 腾讯云超级管家
+server = /*.qcloudcjgj.com/119.29.29.29
+# 腾讯云网站管家
+server = /*.qcloudwzgj.com/119.29.29.29
+# 腾讯云主页管家
+server = /*.qcloudzygj.com/119.29.29.29
+# 腾讯开放云
+server = /*.myqcloud.com/119.29.29.29
+# 腾讯云
+server = /*.tencent-cloud.net/119.29.29.29
+# 腾讯云aiot解决方案
+server = /*.tencentcloud-aiot.com/119.29.29.29
+# 腾讯云API
+server = /*.tencentcloudapi.com/119.29.29.29
+# 腾讯云容器镜像服务TCR
+server = /*.tencentcloudcr.com/119.29.29.29
+# 腾讯云云市场
+server = /*.tencentcloudmarket.com/119.29.29.29
+# QQ
+server = /*.qq.com/119.29.29.29
+# 腾讯头像
+server = /*.qlogo.cn/119.29.29.29
+# 腾讯图片
+server = /*.qpic.cn/119.29.29.29
+# 微信
+server = /*.weixin.qq.com/119.29.29.29
+server = /*.wx.qq.com/119.29.29.29
+server = /*.weixin.com/119.29.29.29
+# 微信公众平台
+server = /*.weixinbridge.com/119.29.29.29
+# WeChat
+server = /*.wechat.com/119.29.29.29
+# 微信小程序
+server = /*.servicewechat.com/119.29.29.29
+# 微云
+server = /*.weiyun.com/119.29.29.29
+# 腾讯 图片 静态资源
+server = /*.gtimg.cn/119.29.29.29
+server = /*.idqqimg.com/119.29.29.29
+# 腾讯 静态资源 CDN
+server = /*.cdn-go.cn/119.29.29.29
+# 腾讯云 智能云解析DNS
+server = /*.smtcdns.com/119.29.29.29
+server = /*.smtcdns.net/119.29.29.29
+# 腾讯短网址
+server = /url.cn/119.29.29.29
+
+# > 百度
+server = /*.baidu/system
+server = /*.baidu.com/system
+# 百度 静态资源
+server = /*.bdimg.com/system
+server = /*.bdstatic.com/system
+# 百度网盘
+server = /*.baidupcs.*/system
+# 百度云CDN
+server = /*.baiduyuncdn.*/system
+# 百度云DNS
+server = /*.baiduyundns.*/system
+# 百度云 DNS
+server = /*.bdydns.*/system
+# 百度云 CDN
+server = /*.bdycdn.*/system
+# 百度云 域名
+server = /*.bdysite.com/system
+server = /*.bdysites.com/system
+# 百度智能云
+server = /*.baidubce.*/system
+# 百度智能云 DNS
+server = /*.bcedns.*/system
+# 百度智能云 对象存储BOS
+server = /*.bcebos.com/system
+# 百度智能云 播放器服务
+server = /*.bcevod.com/system
+# 百度智能云 图片服务
+server = /*.bceimg.com/system
+# 百度智能云 主机
+server = /*.bcehost.com/system
+server = /*.bcehosts.com/system
+# 百度短网址
+server = /dwz.cn/system
+
+# > 360
+# 360安全中心
+server = /*.360.cn/https://doh.360.cn/dns-query
+# 360安全卫士
+server = /*.360safe.com/https://doh.360.cn/dns-query
+# 360快资讯
+server = /*.360kuai.com/https://doh.360.cn/dns-query
+# 360搜索
+server = /*.so.com/https://doh.360.cn/dns-query
+# 360网页快照服务
+server = /*.360webcache.com/https://doh.360.cn/dns-query
+# 奇虎api
+server = /*.qihuapi.com/https://doh.360.cn/dns-query
+# 360图床
+server = /*.qhimg.com/https://doh.360.cn/dns-query
+server = /*.qhimgs.com/https://doh.360.cn/dns-query
+server = /*.qhimgs?.com/https://doh.360.cn/dns-query
+# 360
+server = /*.qhmsg.com/https://doh.360.cn/dns-query
+# 奇虎静态资源
+server = /*.qhres.com/https://doh.360.cn/dns-query
+server = /*.qhres?.com/https://doh.360.cn/dns-query
+# 导航静态文件
+server = /*.dhrest.com/https://doh.360.cn/dns-query
+# 360
+server = /*.qhupdate.com/https://doh.360.cn/dns-query
+# 360安全云盘
+server = /*.yunpan.cn/https://doh.360.cn/dns-query
+server = /*.yunpan.com.cn/https://doh.360.cn/dns-query
+server = /*.yunpan.com/https://doh.360.cn/dns-query
+# 360短网址
+server = /urlqh.cn/https://doh.360.cn/dns-query
+
+# > BiliBili
+server = /*.bilibili.com/system
+# BiliBili API
+server = /*.biliapi.com/system
+server = /*.biliapi.net/system
+# BiliBili CDN
+server = /*.bilicdn?.com/system
+# BiliBili 静态资源
+server = /*.hdslb.com/system
+server = /*.hdslb.net/system
+# BiliBili 视频
+server = /cn-hk-eq-bcache-??.bilivideo.com/system
+# BiliBili upos视频服务器（akamai）
+server = /upos-hz-mirrorakam.akamaized.net/system
+# BiliBili upos视频服务器（asia-abroad.com）
+server = /upos-sz-mirrorasiaov.bilibilivideo.com/system
+# BiliBili upos视频服务器（阿里云）
+server = /upos-sz-mirrorali.bilivideo.com/223.5.5.5
+server = /upos-sz-mirrorali?.bilivideo.com/223.5.5.5
+server = /upos-sz-mirrorali??.bilivideo.com/223.5.5.5
+# BiliBili upos视频服务器（百度云）
+server = /upos-sz-mirrorbos.bilivideo.com/system
+# BiliBili upos视频服务器（腾讯云）
+server = /upos-sz-mirrorcos.bilivideo.com/119.29.29.29
+server = /upos-sz-mirrorcos?.bilivideo.com/119.29.29.29
+server = /upos-sz-mirrorcos??.bilivideo.com/119.29.29.29
+# BiliBili upos视频服务器（华为云）
+server = /upos-sz-mirrorhw.bilivideo.com/system
+server = /upos-sz-mirrorhw?.bilivideo.com/system
+# BiliBili upos视频服务器（金山云）
+server = /upos-sz-mirrorks3.bilivideo.com/system
+server = /upos-sz-mirrorks3?.bilivideo.com/system
+# BiliBili upos视频服务器（七牛云）
+server = /upos-sz-mirrorkodo.bilivideo.com/system
+server = /upos-sz-mirrorkodo?.bilivideo.com/system
+# BiliBili upos视频服务器（网宿）
+server = /upos-sz-mirrorwcs.bilivideo.com/system
+server = /upos-sz-mirrorwcs?.bilivideo.com/system
+# BiliBili upos视频服务器（迅雷）
+server = /upos-sz-mirrorxycdn.bilivideo.com/system
+# BiliBili upos视频服务器（百度云）
+server = /upos-sz-upcdnbd??.bilivideo.com/system
+# BiliBili upos视频服务器
+server = /upos-sz-upcdnhw.bilivideo.com/system
+# BiliBili upos视频服务器（腾讯云）
+server = /upos-sz-upcdntx.bilivideo.com/119.29.29.29
+# BiliBili upos视频服务器
+server = /upos-sz-upcdnws.bilivideo.com/system
+server = /upos-tf-all-js.bilivideo.com/system
+# BiliBili mCDN视频服务器
+server = /*.mcdn.bilivideo.com/system
+# BiliBili 视频
+server = /*.bilivideo.com/system
+server = /*.bilivideo.cn/system
+# BiliBili短网址
+server = /acg.tv/system
+
+# > 京东
+server = /*.jd.com/system
+# 京东 静态资源
+server = /*.360buyimg.com/system
+# 京东云
+server = /*.jdcloud.com/system
+# 京东云 缓存和存储
+server = /*.jcloudstatic.com/system
+# 京东云 静态资源
+server = /*.jcloudstatic.net/system
+# 京东云 全局负载均衡
+server = /*.jdgslb.com/system
+# 京东短网址
+server = /3.cn/system
+
+
+# > 🇨🇳 CN
+# CNNIC SDNS
+# 中国政府网
+# server = /*.gov.cn/system
+# server = /*.政务/system
+
+# > 🇭🇰 HK
+# PCCW Enterprises Limited
+# server = /*.pccw.com/8.8.8.8
+# 1O1O
+# server = /*.1010.com.hk/8.8.8.8
+# csl.
+# server = /*.hkcsl.com/8.8.8.8
+# The CLUB by HKT
+# server = /*.theclub.com.hk/8.8.8.8
+# now.com
+# server = /*.now.com/8.8.8.8
+# Now E
+# server = /*.nowe.com/8.8.8.8
+# Now TV
+# server = /*.now-tv.com/8.8.8.8
+# MOOV
+# server = /*.moov.hk/8.8.8.8
+# viu
+# server = /*.viu.com/8.8.8.8
+# viu tv
+# server = /*.viu.tv/8.8.8.8
+# Hong Kong Cable Television Limited
+# server = /*.hkcable.com.hk/8.8.8.8
+# i-CABLE
+# server = /*.i-cable.com/8.8.8.8
+# CABLE TV Service
+# server = /*.cabletv.com.hk/dns2.hkcable.com.hk
+# KDDI Hong Kong Limited
+# server = /*.hk.kddi.com/8.8.8.8
+
+# > 🇹🇼 TW
+# 中华电信
+server = /*.cht.com.tw/8.8.8.8
+# 中华电信HiNet
+server = /*.hinet.net/8.8.8.8
+# 中华电信emome
+server = /*.emome.net/8.8.8.8
+# So-net Entertainment Taiwan
+# server = /*.so-net.net.tw/8.8.8.8
+# server = /*.so-net.tw/8.8.8.8
+# Taiwan Network Information Center
+server = /*.tw/8.8.8.8
+server = /*.taipei/8.8.8.8
+
+# > 🇺🇸 US
+# Hurricane Electric
+server = /*.he.net/8.8.8.8
