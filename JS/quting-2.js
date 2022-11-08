@@ -6,7 +6,7 @@
 > 脚本功能：免输入激活码，自动激活APP，免弹窗
 > 脚本作者：Cuttlefish
 > 更新时间：2022-10-31
-
+> https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Crack/qtmusic.js
             
 [rewrite_local]
 
