@@ -2,14 +2,14 @@
 # 🌐https://github.com/VirgilClyne/GetSomeFries/blob/main/ruleset/ASN.Telegram.list
 
 PROCESS-NAME,org.telegram.messenger
-DOMAIN-SUFFIX,comments.app // @CommentsBot
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telegra.ph // Telegraph
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telegram-cdn.org
-DOMAIN-SUFFIX,telesco.pe // Telescope
+HOST-SUFFIX,comments.app // @CommentsBot
+HOST-SUFFIX,t.me
+HOST-SUFFIX,tdesktop.com
+HOST-SUFFIX,telegra.ph // Telegraph
+HOST-SUFFIX,telegram.me
+HOST-SUFFIX,telegram.org
+HOST-SUFFIX,telegram-cdn.org
+HOST-SUFFIX,telesco.pe // Telescope
 IP-CIDR,109.239.140.0/24,no-resolve // Telegram Messenger LLP
 IP-CIDR,5.28.195.163/32,no-resolve // IPFFM - Internet Provider Frankfurt GmbH
 IP-CIDR,5.28.195.205/32,no-resolve // IPFFM - Internet Provider Frankfurt GmbH
