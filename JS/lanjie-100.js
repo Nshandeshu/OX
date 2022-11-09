@@ -6,16 +6,13 @@
 下载地址：http://t.cn/A6MLFAJf
 脚本作者：Hausd0rff
 更新时间：2022-02-15
-电报频道：https://t.me/yqc_123
-问题反馈：https://t.me/yqc_777
-使用声明：⚠️此脚本仅供学习与交流，
-        请勿转载与贩卖！⚠️⚠️⚠️
+
 *******************************
 
 [rewrite_local]
 
 # > 拦截100解锁超级会员
-^https?:\/\/tagit\.hyhuo\.com\/cypt\/block100\/get_vip_info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/Block100SVIPCrack.js
+^https?:\/\/tagit\.hyhuo\.com\/cypt\/block100\/get_vip_info$ url script-response-body https://raw.githubusercontent.com/Nshandeshu/OX/main/JS/lanjie-100.js
 
 [mitm] 
 
