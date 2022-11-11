@@ -1,0 +1,100 @@
+# 作者：DivineEngine
+#原地址: https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset/Guard
+
+# Privacy
+HOST-SUFFIX,adjust.com
+HOST-SUFFIX,airpr.com
+HOST-SUFFIX,cr-nielsen.com
+HOST-SUFFIX,hotjar.com
+HOST-SUFFIX,hotjar.io
+HOST-SUFFIX,hs-analytics.net
+HOST-SUFFIX,kissmetrics.com
+HOST-SUFFIX,kochava.com
+HOST-SUFFIX,liadm.com
+HOST-SUFFIX,marketo.com
+HOST-SUFFIX,mobileapptracking.com
+HOST-SUFFIX,mparticle.com
+HOST-SUFFIX,nexac.com
+HOST-SUFFIX,nr-data.net
+HOST-SUFFIX,pardot.com
+HOST-SUFFIX,parrable.com
+HOST-SUFFIX,petametrics.com
+HOST-SUFFIX,predic.io
+HOST-SUFFIX,quantcount.com
+HOST-SUFFIX,quantserve.com
+HOST-SUFFIX,rtbasia.com
+HOST-SUFFIX,scorecardresearch.com
+HOST-SUFFIX,seewhy.com
+HOST-SUFFIX,segment.com
+HOST-SUFFIX,segment.io
+HOST-SUFFIX,segmentify.com
+HOST-SUFFIX,sentiance.com
+HOST-SUFFIX,serverbid.com
+HOST-SUFFIX,sessionm.com
+HOST-SUFFIX,smartlook.com
+HOST-SUFFIX,socdm.com
+HOST-SUFFIX,socialannex.com
+HOST-SUFFIX,socialbakers.com
+HOST-SUFFIX,sociaplus.com
+HOST-SUFFIX,stathat.com
+HOST-SUFFIX,stats-locations.com
+HOST-SUFFIX,tagcommander.com
+HOST-SUFFIX,tailtarget.com
+HOST-SUFFIX,tapad.com
+HOST-SUFFIX,tapfiliate.com
+HOST-SUFFIX,tapinfluence.com
+HOST-SUFFIX,tapstream.com
+HOST-SUFFIX,tend.io
+HOST-SUFFIX,trackingio.com
+HOST-SUFFIX,woopra.com
+HOST-SUFFIX,wootric.com
+HOST-SUFFIX,wowanalytics.co.uk
+HOST-SUFFIX,zoomanalytics.co
+
+HOST-SUFFIX,ads.linkedin.com
+HOST,analytics.slashdotmedia.com
+HOST,zgsdk.zhugeio.com
+
+# google广告营销 分析客户端数据
+host, app-measurement.com
+
+# > 51.LA
+HOST,js.users.51.la
+HOST,mc.51.la
+HOST,wc.51.la
+# > 58
+HOST,track.58.com
+HOST,tracklog.58.com
+# > Baidu
+HOST,hm.baidu.com
+HOST,hmma.baidu.com
+# > Daum
+HOST,track.tiara.daum.net
+HOST,track.tiara.kakao.com
+# > Google
+HOST-SUFFIX,googletagmanager.com
+HOST-SUFFIX,google-analytics.com
+HOST,safebrowsing.googleapis.com
+# > GozenData
+# https://www.v2ex.com/t/772523
+HOST-SUFFIX,gozendata.com
+HOST-SUFFIX,gzads.com
+HOST-SUFFIX,gz-data.com
+# > GrowingIO
+HOST-SUFFIX,giocdn.com
+HOST-SUFFIX,growingio.com
+# > MI
+HOST-SUFFIX,tracking.miui.com
+# HOST,api.miwifi.com // 影响 Mi Wi-Fi(id859962702)，但建议注意 https://www.v2ex.com/t/746094
+HOST,data.mistat.xiaomi.com
+HOST,tracking.intl.miui.com
+# > TalkingData
+HOST-SUFFIX,cpatrk.net
+HOST-SUFFIX,talkingdata.com
+HOST-SUFFIX,talkingdata.net
+HOST-SUFFIX,udrig.com
+# > Tencent
+HOST,safebrowsing.urlsec.qq.com
+# > Tenjin
+HOST,track.tenjin.com
+HOST,track.tenjin.io
