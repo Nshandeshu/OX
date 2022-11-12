@@ -2,7 +2,6 @@
 # > 酷安
 host-keyword, pglstatp-toutiao.com, reject
 host-keyword, toutiao.com, reject
-
 # > 美团
 HOST, flowplus.meituan.net, reject
 HOST-SUFFIX, analytics.meituan.net, reject
@@ -11,3 +10,9 @@ HOST-SUFFIX, meituan.yoga, reject
 HOST-SUFFIX, meituangov.cn, reject
 HOST-SUFFIX, report.meituan.com, reject
 HOST-SUFFIX, wmlog.meituan.com, reject
+# > Instagram
+HOST-SUFFIX,portal.fb.com,REJECT
+HOST-SUFFIX,edge-mqtt.facebook.com,REJECT
+HOST-SUFFIX,graph.facebook.com,REJECT
+HOST-SUFFIX,graph.instagram.com,REJECT
+HOST-SUFFIX,amazon-adsystem.com,REJECT
