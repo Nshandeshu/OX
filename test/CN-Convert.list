@@ -348,7 +348,10 @@ IP-CIDR,203.205.254.0/23,no-resolve
 # 自己添加
 IP-CIDR,109.244.1.1/16,no-resolve
 IP-CIDR,175.27.1.1/16,no-resolve
-#
+; qq
+IP-CIDR,101.89.15.0/24,no-resolve
+
+# IPV6
 IP6-CIDR,2a0b:b580::/48,no-resolve
 IP6-CIDR,2a0b:b581::/48,no-resolve
 IP6-CIDR,2a0b:b582::/48,no-resolve
