@@ -354,4 +354,4 @@ IP6-CIDR,2a0b:b581::/48,no-resolve
 IP6-CIDR,2a0b:b582::/48,no-resolve
 IP6-CIDR,2a0b:b583::/48,no-resolve
 # geo
-GEOIP,CN,no-resolve
+# GEOIP,CN,no-resolve
