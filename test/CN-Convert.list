@@ -348,7 +348,7 @@ IP-CIDR,203.205.254.0/23,no-resolve
 # 自己添加
 IP-CIDR,109.244.1.1/16,no-resolve
 IP-CIDR,175.27.1.1/16,no-resolve
-; qq
+; qq 域名类
 IP-CIDR,101.89.15.0/24,no-resolve
 
 # IPV6
