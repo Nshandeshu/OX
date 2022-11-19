@@ -339,8 +339,10 @@ HOST-SUFFIX,zmzapi.net,DIRECT
 HOST-SUFFIX,zmzfile.com,DIRECT
 HOST-SUFFIX,manmanbuy.com,DIRECT
 
-
 # 额外添加
+
+HOST-SUFFIX,10010.com,DIRECT
+
 # > Tencent 前三条神机含有
 IP-CIDR,182.254.116.0/24,no-resolve
 IP-CIDR,203.205.238.0/23,no-resolve
