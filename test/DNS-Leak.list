@@ -22,11 +22,11 @@ HOST-SUFFIX,live.cn,PROXY
 HOST-SUFFIX,similarsites.com,PROXY
 
 # pikpak
-host-suffix, mypikpak.com, 
+host-suffix, mypikpak.com, PROXY
 host-keyword, pikpak, PROXY
 
 #555 影院
-host, zhenfanjixie.com, 
+host, zhenfanjixie.com, PROXY
 
 # bitwarden 密码管理器
 HOST-SUFFIX,bitwarden.com, PROXY
