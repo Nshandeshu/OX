@@ -41,4 +41,6 @@ host-keyword, javbus, PROXY
 # 网页影视
 host-suffix, libvio.me, PROXY
 host, zhenfanjixie.com, PROXY
+host-suffix, t66y.com, PROXY
+
 
