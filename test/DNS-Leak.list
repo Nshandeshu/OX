@@ -14,19 +14,16 @@ HOST-SUFFIX,whoer.net,PROXY
 HOST-SUFFIX,whrq.net,PROXY
 host-keyword, dnsleak.asn247.net, PROXY
 
-# 额外添加
+# 额外添加 谷歌-微软
 HOST-SUFFIX,gstatic.com,PROXY
 HOST-SUFFIX,live.com,PROXY
 HOST-SUFFIX,live.cn,PROXY
 # 相似网站的搜索
 HOST-SUFFIX,similarsites.com,PROXY
 
-# pikpak
+# pikpak 网盘
 host-suffix, mypikpak.com, PROXY
 host-keyword, pikpak, PROXY
-
-#555 影院
-host, zhenfanjixie.com, PROXY
 
 # bitwarden 密码管理器
 HOST-SUFFIX,bitwarden.com, PROXY
@@ -43,4 +40,5 @@ host-keyword, javbus, PROXY
 
 # 网页影视
 host-suffix, libvio.me, PROXY
+host, zhenfanjixie.com, PROXY
 
