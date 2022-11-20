@@ -16,3 +16,7 @@ host-keyword, dnsleak.asn247.net, PROXY
 
 # 额外添加
 HOST-SUFFIX,gstatic.com,PROXY
+HOST-SUFFIX,live.com,PROXY
+HOST-SUFFIX,live.cn,PROXY
+# 相似网站的搜索
+HOST-SUFFIX,similarsites.com,PROXY
