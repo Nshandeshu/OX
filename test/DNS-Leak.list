@@ -1,7 +1,6 @@
 
 # DNS Leak DNS测试网站
 HOST-SUFFIX,dnsleaktest.com,PROXY
-HOST-SUFFIX,dnsleak.com,PROXY
 HOST-SUFFIX,expressvpn.com,PROXY
 HOST-SUFFIX,nordvpn.com,PROXY
 HOST-SUFFIX,surfshark.com,PROXY
