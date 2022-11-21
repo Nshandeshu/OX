@@ -13,6 +13,7 @@ HOST-SUFFIX,vpnunlimited.com,PROXY
 HOST-SUFFIX,whoer.net,PROXY
 HOST-SUFFIX,whrq.net,PROXY
 HOST-SUFFIX,yalala.com,PROXY
+HOST-SUFFIX,dnsleak,PROXY
 
 # 额外添加 谷歌-微软
 HOST-SUFFIX,gstatic.com,PROXY
