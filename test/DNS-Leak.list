@@ -14,6 +14,7 @@ HOST-SUFFIX,whoer.net,PROXY
 HOST-SUFFIX,whrq.net,PROXY
 HOST-SUFFIX,yalala.com,PROXY
 host-keyword,dnsleak,PROXY
+host-keyword,mbbrowser.com,PROXY
 
 # 额外添加 谷歌-微软
 HOST-SUFFIX,gstatic.com,PROXY
