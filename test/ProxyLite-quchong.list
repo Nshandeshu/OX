@@ -469,7 +469,8 @@ HOST-SUFFIX,skype.com, PROXY
 # 去重额外添加神机Global.list
 # <<<<<<<<<<<<<<<<<<
 
-# 额外 2
+# 额外2 >>>>>🔴🔴🔴👇🔴🔴🔴
+
 # DNS Leak DNS测试网站
 HOST-SUFFIX,dnsleaktest.com,PROXY
 HOST-SUFFIX,expressvpn.com,PROXY
@@ -489,6 +490,13 @@ host-keyword,mbbrowser.com,PROXY
 HOST-SUFFIX,gstatic.com,PROXY
 HOST-SUFFIX,live.com,PROXY
 HOST-SUFFIX,live.cn,PROXY
+HOST-keyword,office.com,PROXY
+HOST-keyword,hotmail,PROXY
+HOST-keyword,outlook,PROXY
+
+# PC 软件 🔴🔴
+HOST-keyword,ghostery,PROXY
+
 # 相似网站的搜索
 HOST-SUFFIX,similarsites.com,PROXY
 # pikpak 网盘
@@ -508,7 +516,8 @@ host-keyword, javbus, PROXY
 host-suffix, libvio.me, PROXY
 host, zhenfanjixie.com, PROXY
 host-suffix, t66y.com, PROXY
-# 额外2>>>>>>>>>>>>>>>>>>
+
+# 额外2 >>>>>🔴🔴🔴👆🔴🔴🔴
 
 HOST,addons.mozilla.org,ProxyLite
 HOST,amp-api.podcasts.apple.com,ProxyLite
