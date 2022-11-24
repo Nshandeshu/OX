@@ -1084,7 +1084,7 @@ HOST-SUFFIX,slideshare.net,ProxyLite
 HOST-SUFFIX,smartdnsproxy.com,ProxyLite
 HOST-SUFFIX,smartmailcloud.com,ProxyLite
 HOST-SUFFIX,smh.com.au,ProxyLite
-HOST-SUFFIX,smoot.apple.com,ProxyLite
+# 🔴与上面重复🔴HOST-SUFFIX,smoot.apple.com,ProxyLite
 HOST-SUFFIX,snapchat.com,ProxyLite
 HOST-SUFFIX,sndcdn.com,ProxyLite
 HOST-SUFFIX,sockslist.net,ProxyLite
