@@ -517,6 +517,9 @@ host-keyword, javbus, PROXY
 host-suffix, libvio.me, PROXY
 host, zhenfanjixie.com, PROXY
 host-suffix, t66y.com, PROXY
+# 
+host,mozilla.cloudflare-dns.com, PROXY
+host-suffix,quantumult.app, PROXY
 
 # 额外2 >>>>>🔴🔴🔴👆🔴🔴🔴
 
