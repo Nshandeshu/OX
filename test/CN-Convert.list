@@ -339,8 +339,7 @@ HOST-SUFFIX,zmzapi.net,DIRECT
 HOST-SUFFIX,zmzfile.com,DIRECT
 HOST-SUFFIX,manmanbuy.com,DIRECT
 
-# 额外添加
-
+# 额外添加 🔴🔴🔴🔴
 HOST-SUFFIX,10010.com,DIRECT
 
 # > Tencent 前三条神机含有
@@ -352,11 +351,14 @@ IP-CIDR,109.244.0.0/16,no-resolve
 IP-CIDR,175.27.0.0/16,no-resolve
 ; qq 域名类
 IP-CIDR,101.89.15.0/24,no-resolve
-
 # IPV6
 IP6-CIDR,2a0b:b580::/48,no-resolve
 IP6-CIDR,2a0b:b581::/48,no-resolve
 IP6-CIDR,2a0b:b582::/48,no-resolve
 IP6-CIDR,2a0b:b583::/48,no-resolve
+
+# 百分论坛
+host-suffix, centbrowser.net,DIRECT
+
 # geo
 # GEOIP,CN,no-resolve
