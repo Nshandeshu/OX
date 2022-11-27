@@ -359,6 +359,8 @@ IP6-CIDR,2a0b:b583::/48,no-resolve
 
 # 百分论坛
 host-suffix, centbrowser.net,DIRECT
+# 今日热榜
+HOST, tophub.today,DIRECT
 
 # geo
 # GEOIP,CN,no-resolve
