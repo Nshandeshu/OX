@@ -32,5 +32,5 @@ HOST-SUFFIX,page.amap.com,REJECT
 HOST,optimus-ads.amap.com, reject
 HOST,optimus-ads.amap.com.w.alikunlun.com, reject
 HOST-SUFFIX, shouji.sougou.com, reject
-HOST, u51.me, reject
+
 HOST-SUFFIX, u51.me, reject
