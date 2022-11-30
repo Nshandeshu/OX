@@ -34,4 +34,4 @@ HOST,optimus-ads.amap.com.w.alikunlun.com, reject
 HOST-SUFFIX, shouji.sougou.com, reject
 HOST-SUFFIX, u51.me, reject
 # > 中国联通 
-HOST, m1.ad.10010.com, reject
+HOST-SUFFIX,m1.ad.10010.com, reject
