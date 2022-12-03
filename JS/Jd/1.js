@@ -8,8 +8,8 @@ author      ddgksf2013
 
 [rewrite_local]
 
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotWords url script-response-body https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/jd_json.js
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotSearchTerms url script-response-body https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/jd_json.js
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotWords url script-response-body https://Nshandeshu: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@raw.githubusercontent.com/Nshandeshu/OX/blob/main/JS/Jd/1.js
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotSearchTerms url script-response-body https://Nshandeshu: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@raw.githubusercontent.com/Nshandeshu/OX/blob/main/JS/Jd/1.js
 
 [mitm]
 
