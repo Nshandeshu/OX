@@ -18,7 +18,7 @@
 
 [rewrite_local]
 
-^https?:\/\/.*\.example\.com url script-analyze-echo-response https://raw.githubusercontent.com/Nshandeshu/OX/main/JS/Ali.js
+^https?:\/\/.*\.example\.com url script-analyze-echo-response https://Nshandeshu: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@raw.githubusercontent.com/Nshandeshu/OX/main/JS/Ali.js
 
 [mitm]
 
