@@ -524,7 +524,7 @@ host-suffix,quantumult.app, PROXY
 host-suffix,api.revenuecat.com, PROXY
 host-suffix,favicon.yandex.net, PROXY
 host-suffix,api2.branch.io, PROXY
-host, itunes.com, PROXY
+host-suffix, itunes.com, PROXY
 host-suffix,ocsp.digicert.com, PROXY
 
 # 额外2 >>>>>🔴🔴🔴👆🔴🔴🔴
