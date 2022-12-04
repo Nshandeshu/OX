@@ -19,7 +19,7 @@
 [rewrite_local]
   
 # ～ 简讯解锁会员权限（2022-12-03）@ddgksf2013
-^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info url script-response-body https://Nshandeshu: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@raw.githubusercontent.com/Nshandeshu/OX/main/JS/JianXun2-moyu.js
+^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info url script-response-body https://Nshandeshu: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@raw.githubusercontent.com/Nshandeshu/OX/main/JS//JianXian/JianXun2.js
 
 
 [mitm] 
