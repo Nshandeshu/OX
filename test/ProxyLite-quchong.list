@@ -526,8 +526,9 @@ host-suffix,favicon.yandex.net, PROXY
 host-suffix,api2.branch.io, PROXY
 host-suffix, itunes.com, PROXY
 host-suffix,ocsp.digicert.com, PROXY
+host-suffix,rollbar.com, PROXY
 
-# 额外2 >>>>>🔴🔴🔴👆🔴🔴🔴
+# 额外2 >>>>>🔴🔴🔴👆👆👆👆🔴🔴🔴
 
 HOST,addons.mozilla.org,ProxyLite
 HOST,amp-api.podcasts.apple.com,ProxyLite
