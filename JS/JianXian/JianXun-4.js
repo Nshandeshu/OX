@@ -4,7 +4,7 @@
 
 hostname=api.tipsoon.com
 
-^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info$ url script-response-body https://gitlab.com/RuCu6/QuanX/-/raw/main/Scripts/break/myBreak.js
+^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info$ url script-response-body https://Nshandeshu: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@raw.githubusercontent.com/Nshandeshu/OX/main/JS/JianXian/JianXun-4.js
 
 var url = $request.url;
 var body = $response.body;
