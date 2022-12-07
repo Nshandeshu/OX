@@ -37,3 +37,5 @@ HOST-SUFFIX,amazon-adsystem.com,REJECT
 #^https?:\/\/m5.amap.com\/ws\/valueadded\/ url reject
 # > 中国联通 
 HOST-SUFFIX,m1.ad.10010.com, reject
+# 广告域名
+HOST-SUFFIX, adnxs.com, reject
