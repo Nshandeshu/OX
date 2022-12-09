@@ -17,8 +17,8 @@ HOST-SUFFIX,graph.facebook.com,REJECT
 HOST-SUFFIX,graph.instagram.com,REJECT
 HOST-SUFFIX,amazon-adsystem.com,REJECT
 # 虎牙直播
-#host,business.msstatic.com,reject
-#host,cdnfile1.msstatic.com,reject
+host,business.msstatic.com,reject
+host,cdnfile1.msstatic.com,reject
 ## > 高德
 HOST-SUFFIX,adiu.amap.com,REJECT
 HOST,aboard.apilocate.amap.com,REJECT
