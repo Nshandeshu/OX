@@ -1,6 +1,6 @@
 /***********************************
 
-> 应用名称：墨鱼自用微博净化
+自用微博净化
 > 软件版本：12.12.0
 > 脚本作者：@Zmqcherish, @Cuttlefish
 > 微信账号：墨鱼手记
@@ -9,9 +9,10 @@
 > 通知频道：https://t.me/ddgksf2021
 > 贡献投稿：https://t.me/ddgksf2013_bot
 > 原作者库：https://github.com/zmqcherish
+> 原作者库2：https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_main.js
 > 问题反馈：ddgksf2013@163.com
 > 脚本版本：V0.0.4
-> 特别提醒：如需转载请注明出处，谢谢合作！
+
 > 脚本声明：特别感谢Zmqcherish的付出，本脚本只是在他原创脚本的基础上优化自用
 > 特别说明：⚠️⚠️⚠️
           本脚本仅供学习交流使用，禁止转载售卖
