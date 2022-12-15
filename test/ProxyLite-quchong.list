@@ -529,6 +529,12 @@ host-suffix,ocsp.digicert.com, PROXY
 host-suffix,rollbar.com, PROXY
 host-suffix,netify.ai, PROXY
 host-keyword, shoujiyanxishe, PROXY
+# 英文辞典+资料
+host-keyword, englishprofile,PROXY
+host-keyword,collinsdictionary,PROXY
+host-keyword,oxfordlearnersdictionaries,PROXY
+host-keyword,merriam-webster,PROXY
+
 
 # 额外2 >>>>>🔴🔴🔴👆👆👆👆🔴🔴🔴
 
