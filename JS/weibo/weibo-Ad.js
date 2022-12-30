@@ -25,8 +25,13 @@
 # > 微博去广告以及去除各部分推广模块
 ^https?://m?api\.weibo\.c(n|om)/2/(cardlist|searchall|page|messageflow|statuses/(unread_)?friends(/|_)timeline|groups/timeline|statuses/(container_timeline|unread_hot_timeline|extend|video_mixtimeline|unread_topic_timeline)|profile/(me|container_timeline)|video/(community_tab|remind_info|tiny_stream_video_list)|checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item|search/(finder|container_timeline|container_discover)) url script-response-body https://Nshandeshu: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@raw.githubusercontent.com/Nshandeshu/OX/main/JS/weibo/weibo-Ad.js
 
+# test # 去除开屏广告 //sdkapp.uve.weibo.com, wbapp.uve.weibo.com
+^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php$ url script-response-body https://Nshandeshu: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@raw.githubusercontent.com/Nshandeshu/OX/main/JS/weibo/weibo-kaipingAD-new.js
+^https:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua\?wm= url script-response-body https://Nshandeshu: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@raw.githubusercontent.com/Nshandeshu/OX/main/JS/weibo/weibo-kaipingAD-new.js
+
+# 暂停
 # > 删除微博开屏广告
-^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://Nshandeshu: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@raw.githubusercontent.com/Nshandeshu/OX/main/JS/weibo/weibo-Ad.js
+#^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://Nshandeshu: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@raw.githubusercontent.com/Nshandeshu/OX/main/JS/weibo/weibo-Ad.js
 
 # > 自定义tab皮肤
 ^https://api.weibo.cn/2/!/client/light_skin url script-response-body https://Nshandeshu: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@raw.githubusercontent.com/Nshandeshu/OX/main/JS/weibo/weibo-Ad.js
