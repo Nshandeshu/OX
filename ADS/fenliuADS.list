@@ -1,7 +1,7 @@
 
 # > 酷安
-host-keyword, pglstatp-toutiao.com, reject
-host-keyword, toutiao.com, reject
+# host-keyword, pglstatp-toutiao.com, reject
+# host-keyword, toutiao.com, reject
 # > 美团
 HOST, flowplus.meituan.net, reject
 HOST-SUFFIX, analytics.meituan.net, reject
