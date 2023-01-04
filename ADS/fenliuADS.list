@@ -31,6 +31,9 @@ HOST-SUFFIX,optimus-ads.amap.com,REJECT
 HOST-SUFFIX,page.amap.com,REJECT
 HOST,optimus-ads.amap.com, reject
 HOST,optimus-ads.amap.com.w.alikunlun.com, reject
+HOST-SUFFIX,amdc.m.taobao.com,REJECT
+HOST-SUFFIX,www.qchannel01.cn,REJECT
+
 HOST-SUFFIX, shouji.sougou.com, reject
 HOST-SUFFIX, u51.me, reject
 # > 中国联通 
