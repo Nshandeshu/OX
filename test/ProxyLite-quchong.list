@@ -521,7 +521,6 @@ host-suffix, t66y.com, PROXY
 # 
 host,mozilla.cloudflare-dns.com, PROXY
 host-suffix,quantumult.app, PROXY
-host-suffix,api.revenuecat.com, PROXY
 host-suffix,favicon.yandex.net, PROXY
 host-suffix,api2.branch.io, PROXY
 host-suffix, itunes.com, PROXY
