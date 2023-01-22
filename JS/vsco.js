@@ -11,7 +11,7 @@
 
 [rewrite_local]
 
-^https:\/\/api\.revenuecat\.com\/v1\/subscribers.+ url script-response-body https://Nshandeshu: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@raw.githubusercontent.com/Nshandeshu/OX/main/JS/vsco.js
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers.+ url script-response-body https://Nshandeshu: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@raw.githubusercontent.com/Nshandeshu/OX/main/JS/vsco.j
 
 [mitm] 
 hostname = api.revenuecat.com
