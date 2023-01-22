@@ -529,6 +529,9 @@ host-suffix,rollbar.com, PROXY
 host-suffix,netify.ai, PROXY
 host-keyword, shoujiyanxishe, PROXY
 host-suffix,jwpcdn.com, PROXY
+# vsco 
+host-suffix, api.revenuecat.com, PROXY
+
 # 英文辞典+资料
 host-keyword, englishprofile,PROXY
 host-keyword,collinsdictionary,PROXY
