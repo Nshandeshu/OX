@@ -1,32 +1,2 @@
-# > Meta 
-HOST-SUFFIX,accountkit.com, PROXY 
-HOST-SUFFIX,cdninstagram.com, PROXY 
-HOST-SUFFIX,f8.com, PROXY 
-HOST-SUFFIX,facebookmail.com, PROXY 
-HOST-SUFFIX,fb.com, PROXY 
-HOST-SUFFIX,fb.me, PROXY 
-HOST-SUFFIX,fb.watch, PROXY 
-HOST-SUFFIX,fbaddins.com, PROXY 
-HOST-SUFFIX,fbcdn.net, PROXY 
-HOST-SUFFIX,fbsbx.com, PROXY 
-HOST-SUFFIX,fbworkmail.com, PROXY 
-HOST-SUFFIX,instagram.com, PROXY 
-HOST-SUFFIX,m.me, PROXY 
-HOST-SUFFIX,messenger.com, PROXY 
-HOST-SUFFIX,oculus.com, PROXY 
-HOST-SUFFIX,oculuscdn.com, PROXY 
-HOST-SUFFIX,readyatdawn.com, PROXY 
-HOST-SUFFIX,rocksdb.org, PROXY 
-HOST-SUFFIX,whatsapp.com, PROXY 
-HOST-SUFFIX,whatsapp.net, PROXY 
-HOST-KEYWORD,.facebook., PROXY  # > Twitter 
-HOST-SUFFIX,periscope.tv, PROXY 
-HOST-SUFFIX,pscp.tv, PROXY 
-HOST-SUFFIX,t.co, PROXY 
-HOST-SUFFIX,tweetdeck.com, PROXY 
-HOST-SUFFIX,twimg.co, PROXY 
-HOST-SUFFIX,twimg.com, PROXY 
-HOST-SUFFIX,twitpic.com, PROXY 
-HOST-SUFFIX,twitter.com, PROXY 
-HOST-SUFFIX,twitter.jp, PROXY 
-HOST-SUFFIX,vine.co, PROXY
+# > 分流纠正
+HOST,app.adjust.com, direct
