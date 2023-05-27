@@ -1,6 +1,7 @@
 # 作者：DivineEngine
 #原地址: https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset/Guard
-
+# chat gpt 日志收集屏蔽
+HOST-SUFFIX,sentry.io,REJECT
 # Privacy
 HOST-SUFFIX,adjust.com,REJECT
 HOST-SUFFIX,airpr.com,REJECT
