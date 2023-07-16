@@ -30,3 +30,13 @@ HOST-SUFFIX, u51.me, reject
 HOST-SUFFIX,m1.ad.10010.com, reject
 # 广告域名
 HOST-SUFFIX, adnxs.com, reject
+
+# 腾讯 无法使用的推送服务
+HOST, tpns.qq.com, REJECT
+# 腾讯视频
+HOST, adsmind.gdtimg.com, REJECT
+HOST, btrace.qq.com, REJECT
+HOST, info6.video.qq.com, REJECT
+HOST, ios.video.mpush.qq.com, REJECT
+HOST, mtrace.qq.com, REJECT
+HOST, pgdt.gtimg.cn, REJECT
