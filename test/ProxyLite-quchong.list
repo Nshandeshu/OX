@@ -517,8 +517,6 @@ host-suffix, alonestreaming.com, PROXY
 host-keyword, javcdn, PROXY
 host-keyword, javbus, PROXY
 # 网页影视
-host-suffix, libvio.me, PROXY
-host, zhenfanjixie.com, PROXY
 host-suffix, t66y.com, PROXY
 # 
 host,mozilla.cloudflare-dns.com, PROXY
@@ -539,8 +537,6 @@ host-keyword, englishprofile,PROXY
 host-keyword,collinsdictionary,PROXY
 host-keyword,oxfordlearnersdictionaries,PROXY
 host-keyword,merriam-webster,PROXY
-
-
 # 额外2 >>>>>🔴🔴🔴👆👆👆👆🔴🔴🔴
 
 HOST,addons.mozilla.org,ProxyLite
